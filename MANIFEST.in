@@ -1,0 +1,14 @@
+# MANIFEST.in untuk Wunaraha
+include README.md
+include LICENSE
+include requirements.txt
+include setup.py
+include pyproject.toml
+include .env.example
+include .pre-commit-config.yaml
+include INSTALL.md
+
+recursive-include wunaraha *.py
+recursive-include tests *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

@@ -1,0 +1,27 @@
+# Requirements untuk Wunaraha - Altmetric Validator AI
+
+# Core dependencies
+transformers>=4.30.0
+torch>=2.0.0
+
+# API clients (optional)
+# tweepy>=4.14.0  # Twitter API
+# Mastodon.py>=1.5.0  # Mastodon API
+# requests>=2.28.0  # HTTP requests
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualization (untuk dashboard)
+# streamlit>=1.20.0  # Dashboard UI
+# plotly>=5.14.0  # Interactive plots
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
