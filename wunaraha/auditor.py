@@ -35,6 +35,7 @@ class AltmetricAuditor:
         self.use_gpu = use_gpu and self._check_gpu_available()
         self.model_name = model_name or "cardiffnlp/twitter-roberta-base-sentiment"
         self.use_ml = use_ml
+        self.mode = "ml_based" if use_ml else "rule_based"
         self.classifier = None
         
         if self.use_ml and TRANSFORMERS_AVAILABLE:
